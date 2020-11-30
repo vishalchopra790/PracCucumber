@@ -33,6 +33,8 @@ public class Product {
         product.add("Apple Iphone 11");
         product.add("Sony");
         product.add("nokia");
+        product.add("MacBook Air");
+        product.add("Apple Iphone 12");
         return  product;
     }
 }

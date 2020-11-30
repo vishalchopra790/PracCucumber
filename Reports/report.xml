@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="1.426">
+<testcase classname="Amazon Search" name="Search a Product" time="0.37">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I  have  a search field on search page................................passed
+When I search for a product with a name "Apple Iphone 11" and price 10000...passed
+Then Product with name "Apple Iphone 11" should be displayed................passed
+And figure out something....................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Amazon Search" name="Search a Product 2" time="0.034">
+<system-out><![CDATA[Given I  have  a search field on search page................................passed
+When I search for a product with a name "MacBook Air" and price 10000.......passed
+Then Product with name "MacBook Air" should be displayed....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Search" name="Search a Product 3" time="0.055">
+<system-out><![CDATA[Given I  have  a search field on search page................................passed
+When I search for a product with a name "Apple Iphone 12" and price 10000...passed
+Then Product with name "Apple Iphone 12" should be displayed................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,500 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I  have  a search field on search page",
+            "match": {
+              "location": "StepDefinations.Searchstep.i_have_a_search_field_on_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-30T09:57:32.275Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHook.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Search a Product",
+        "description": "",
+        "id": "amazon-search;search-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I search for a product with a name \"Apple Iphone 11\" and price 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple Iphone 11\"",
+                  "offset": 35
+                },
+                {
+                  "val": "10000",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinations.Searchstep.i_search_for_a_product_with_a_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Product with name \"Apple Iphone 11\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple Iphone 11\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinations.Searchstep.product_with_name_should_be_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "figure out something",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I  have  a search field on search page",
+            "match": {
+              "location": "StepDefinations.Searchstep.i_have_a_search_field_on_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-30T09:57:32.713Z",
+        "line": 13,
+        "name": "Search a Product",
+        "description": "",
+        "id": "amazon-search;search-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I search for a product with a name \"MacBook Air\" and price 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MacBook Air\"",
+                  "offset": 35
+                },
+                {
+                  "val": "10000",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinations.Searchstep.i_search_for_a_product_with_a_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "Product with name \"MacBook Air\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MacBook Air\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinations.Searchstep.product_with_name_should_be_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Prod"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I  have  a search field on search page",
+            "match": {
+              "location": "StepDefinations.Searchstep.i_have_a_search_field_on_search_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-30T09:57:32.773Z",
+        "line": 18,
+        "name": "Search a Product",
+        "description": "",
+        "id": "amazon-search;search-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I search for a product with a name \"Apple Iphone 12\" and price 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple Iphone 12\"",
+                  "offset": 35
+                },
+                {
+                  "val": "10000",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinations.Searchstep.i_search_for_a_product_with_a_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.befStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "Product with name \"Apple Iphone 12\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple Iphone 12\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinations.Searchstep.product_with_name_should_be_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHook.aftStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@QA"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/Search.feature",
+    "tags": []
+  }
+]
